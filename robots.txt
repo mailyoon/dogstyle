@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: http://dogstyle.tk/sitemap.xml
