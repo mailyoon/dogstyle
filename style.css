@@ -271,3 +271,7 @@ body {
 .youtube-cover {
 	text-align: center;
 }
+.ad-banner {
+	width: 320px;
+	margin: 0 auto;
+}
