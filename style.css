@@ -1,0 +1,273 @@
+body {
+    font-family: 'Ubuntu', 'Nanum Gothic', sans-serif;
+	background-color: #ffffff;
+}
+
+.file-upload {
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 3rem;
+}
+
+.file-upload-btn {
+	width: 100%;
+	margin: 0;
+	color: #fff;
+	background: #1fb264;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 4px solid #15824b;
+	transition: all 0.2s ease;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.file-upload-btn:hover {
+	background: #1aa059;
+	color: #ffffff;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.file-upload-btn:active {
+	border: 0;
+	transition: all 0.2s ease;
+}
+
+.file-upload-content {
+	display: none;
+	text-align: center;
+}
+
+.file-upload-input {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.image-upload-wrap {
+	border: 2px dashed #ffcc00;
+	position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+	background-color: #ffffe0;
+	border: 2px dashed #ffcc00;
+}
+
+.image-title-wrap {
+	padding: 0 15px 15px 15px;
+	color: #222;
+}
+
+.drag-text {
+	text-align: center;
+}
+
+.drag-text h3 {
+	width: 100%;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 0 4rem;
+	margin: 0 auto;
+}
+
+.file-upload-image {
+	max-height: 200px;
+	max-width: 200px;
+	margin: auto;
+	padding: 20px;
+}
+
+.try-again-btn {
+	width: 200px;
+	margin: 0;
+	color: #fff;
+	background: #ffa500;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 4px solid #ff8c00;
+	transition: all 0.2s ease;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.try-again-btn:hover {
+	background: #c13b2a;
+	color: #ffffff;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.try-again-btn:active {
+	border: 0;
+	transition: all 0.2s ease;
+}
+
+.nav-distance {
+	padding: 2.1% 7%;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: #ffffff;
+}
+.section {
+	margin-top: 2rem;
+}
+.title {
+	text-align: center;
+}
+.subtitle {
+	text-align: center;
+	margin-top: 1rem;
+	font-size: calc(1.3rem + 0.6vw);
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+	.nevbar-brand {
+		font-size: 2rem;
+	}
+}
+.bar-container {
+    height: 2.7rem;
+}
+.funny-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(75, 192, 192, 0.2);
+}
+.funny-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(75, 192, 192, 1);
+}
+.angry-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(255, 99, 132, 0.2);
+}
+.angry-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(255, 99, 132, 1);
+}
+.sad-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(54, 162, 235, 0.2);
+}
+.sad-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(54, 162, 235, 1);
+}
+.cute-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(255, 206, 86, 0.2);
+}
+.cute-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(255, 206, 86, 1);
+}
+.cool-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(153, 102, 255, 0.2);
+}
+.cool-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(153, 102, 255, 1);
+}
+.percent-text {
+  font-size: 1rem;
+  color: #ffffff;
+}
+.animal-label {
+    width: 15%;
+    text-align: left;
+	font-size: 1.2rem;
+    height: 2rem;
+}
+#label-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.result-message {
+    font-size: 2rem;
+}
+.animal-explain {
+	width: 80%;
+	margin: auto;
+    font-size: 1.3rem;
+}
+.funny-animal-title {
+    color: #4bc0c0;
+}
+.angry-animal-title {
+    color: #ff6384;
+}
+.sad-animal-title {
+    color: #36a2eb;
+}
+.cute-animal-title {
+    color: #ffce56;
+}
+.cool-animal-title {
+    color: #9966ff;
+}
+.youtube-cover {
+	text-align: center;
+}
