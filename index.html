@@ -20,7 +20,7 @@
 		<meta name="title" content="My Dog Style" />
 		<meta
 			name="description"
-			content="당신의 개는 어떤 스타일인가요? 인공지능이 강아지 얼굴을 분석해줍니다."
+			content="당신의 강아지는 어떤 스타일인가요? 인공지능이 강아지 얼굴을 분석해줍니다."
 		/>
 		<meta
 			name="keywords"
@@ -91,7 +91,7 @@
 		</nav>
 		<section class="section">
 			<h1 class="title">My Dog Style (AI TEST)</h1>
-			<h2 class="subtitle">Let's find your dog's style</h2>
+			<h2 class="subtitle">당신의 개는 어떤 스타일인가요?</h2>
 		</section>
 		<script
 			class="jsbin"
@@ -107,7 +107,7 @@
 				/>
 				<div class="drag-text">
 					<img src="img/upload.svg" class="mt-5 upload" style="width: 15%;" />
-					<h3 class="mt-5 mb-5 upload-text">Drag and drop a file or select add Image</h3>
+					<h3 class="mt-5 mb-5 upload-text">이곳에 강아지 사진을 촬영 혹은 업로드하세요!</h3>
 				</div>
 			</div>
 			<div class="file-upload-content">
@@ -116,7 +116,7 @@
 					<div class="spinner-border" role="status">
 						<span class="sr-only"></span>
 					</div>
-					<p class="text-center">AI is finding your dog's style</p>
+					<p class="text-center">AI가 당신의 강아지를 분석 중입니다.</p>
 				</div>
 				<p class="result-message"></p>
 				<div id="label-container" class="d-flex flex-column justify-content-around"></div>
@@ -135,14 +135,14 @@
 						onclick="window.location.reload();"
 						class="mt-5 try-again-btn"
 					>
-						<span class="try-again-text">Change the image</span>
+						<span class="try-again-text">다른 사진으로 재시도</span>
 					</button>
 				</div>
 			</div>
 		</div>
 		<section class="youtube">
 			<div class="youtube-cover">
-				Helped by
+				제작 도움 : 
 				<a
 					href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg"
 					class="youtube-link"
@@ -320,7 +320,7 @@
 							'오! 멋짐 폭발이네요. 산책 시 조심하세요. 다른 개들이 반해서 따라올지 몰라요.^^';
 						break;
 					default:
-						resultTilte = "Can't Find";
+						resultTilte = "알 수 없음";
 						resultExplain = '';
 				}
 				var title =
@@ -358,7 +358,7 @@
 							labelTitle = 'cool';
 							break;
 						default:
-							labelTitle = '알수없음';
+							labelTitle = '알 수 없음';
 					}
 					var label =
 						"<div class='animal-label d-flex align-items-center'>" +
