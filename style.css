@@ -1,5 +1,5 @@
 body {
-    font-family: 'Ubuntu', 'Nanum Gothic', sans-serif;
+	font-family: 'Ubuntu', 'Nanum Gothic', sans-serif;
 	background-color: #ffffff;
 }
 
@@ -133,7 +133,13 @@ body {
 	margin-top: 1rem;
 	font-size: calc(1.3rem + 0.6vw);
 }
-
+.kakao-link-btn {
+	width: 2.6rem;
+	margin-right: 15.5rem;
+}
+.addthis_inline_share_toolbox {
+	margin-left: 5rem;
+}
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
 	html {
@@ -144,7 +150,7 @@ body {
 	}
 }
 .bar-container {
-    height: 2.7rem;
+	height: 2.7rem;
 }
 .funny-box {
 	position: absolute;
@@ -232,41 +238,41 @@ body {
 	background-color: rgba(153, 102, 255, 1);
 }
 .percent-text {
-  font-size: 1rem;
-  color: #ffffff;
+	font-size: 1rem;
+	color: #ffffff;
 }
 .animal-label {
-    width: 15%;
-    text-align: left;
+	width: 15%;
+	text-align: left;
 	font-size: 1.2rem;
-    height: 2rem;
+	height: 2rem;
 }
 #label-container {
-    width: 80%;
-    margin: 0 auto;
+	width: 80%;
+	margin: 0 auto;
 }
 .result-message {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 .animal-explain {
 	width: 80%;
 	margin: auto;
-    font-size: 1.3rem;
+	font-size: 1.3rem;
 }
 .funny-animal-title {
-    color: #4bc0c0;
+	color: #4bc0c0;
 }
 .angry-animal-title {
-    color: #ff6384;
+	color: #ff6384;
 }
 .sad-animal-title {
-    color: #36a2eb;
+	color: #36a2eb;
 }
 .cute-animal-title {
-    color: #ffce56;
+	color: #ffce56;
 }
 .cool-animal-title {
-    color: #9966ff;
+	color: #9966ff;
 }
 .youtube-cover {
 	text-align: center;

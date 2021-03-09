@@ -11,20 +11,29 @@
 			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
 			crossorigin="anonymous"
 		/>
-	    <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu&display=swap"
+			rel="stylesheet"
+		/>
 		<title>My Dog Style</title>
-		<meta name="title" content="My Dog Style">
-        <meta name="description" content="당신의 개는 어떤 스타일인가요? 인공지능이 강아지 얼굴을 분석해줍니다.">
-        <meta name="keywords" content="개, 강아지, 얼굴 분석, 인공지능 테스트, 유형 검사, dog style, my dog tyle, 개 유형, 강아지 유형, 개 스타일, 강아지 스타일, 귀여운 개, 슬픈 개, 웃긴 개, 멋진 개, 화난 개, 귀여운 강아지, 슬픈 강아지, 웃긴 강아지, 멋진 강아지, 화난 강아지">
-        <meta name="author" content="김다스">
-		<meta name="robots" content="index,follow">
+		<meta name="title" content="My Dog Style" />
+		<meta
+			name="description"
+			content="당신의 개는 어떤 스타일인가요? 인공지능이 강아지 얼굴을 분석해줍니다."
+		/>
+		<meta
+			name="keywords"
+			content="개, 강아지, 얼굴 분석, 인공지능 테스트, 유형 검사, dog style, my dog tyle, 개 유형, 강아지 유형, 개 스타일, 강아지 스타일, 귀여운 개, 슬픈 개, 웃긴 개, 멋진 개, 화난 개, 귀여운 강아지, 슬픈 강아지, 웃긴 강아지, 멋진 강아지, 화난 강아지"
+		/>
+		<meta name="author" content="김다스" />
+		<meta name="robots" content="index,follow" />
 		<meta property="og:url" content="http://www.https://dogstyle.tk" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="My Dog Style" />
-        <meta property="og:description" content="당신의 개는 어떤 스타일인가요?" />
-        <meta property="og:image" content="img/ogcontent.jpg" />
-		<link rel="canonical" href="http://www.https://dogstyle.tk.html">
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="My Dog Style" />
+		<meta property="og:description" content="당신의 개는 어떤 스타일인가요?" />
+		<meta property="og:image" content="img/ogcontent.jpg" />
+		<link rel="canonical" href="http://www.https://dogstyle.tk.html" />
 		<link rel="stylesheet" href="style.css" />
 		<!-- Go to www.addthis.com/dashboard to customize your tools -->
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -33,6 +42,7 @@
 			type="text/javascript"
 			src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6041c357ceb3e591"
 		></script>
+		<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 		<meta name="naver-site-verification" content="91127eb1a7540e684279d20560f316ee6751795f" />
 	</head>
 
@@ -95,10 +105,19 @@
 				<p class="result-message"></p>
 				<div id="label-container" class="d-flex flex-column justify-content-around"></div>
 				<!-- Go to www.addthis.com/dashboard to customize your tools -->
-				<div class="mt-5 addthis_inline_share_toolbox"></div>
+				<div class="mt-5 addthis_inline_share_toolbox">
+					<a id="kakao-link-btn" href="javascript:;">
+					<img class="kakao-link-btn" src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
+					/>
+				</a>
+				</div>
 				<div class="image-title-wrap">
-					<button type="button" onclick="window.location.reload();" class="mt-5 try-again-btn">
-						 <span class="try-again-text">Change the image</span>
+					<button
+						type="button"
+						onclick="window.location.reload();"
+						class="mt-5 try-again-btn"
+					>
+						<span class="try-again-text">Change the image</span>
 					</button>
 				</div>
 			</div>
@@ -114,11 +133,18 @@
 			</div>
 		</section>
 		<div class="ad-banner">
-			<ins class="kakao_ad_area" style="display:none;" 
- data-ad-unit    = "DAN-OWPNpgRkjHj7BzKk" 
- data-ad-width   = "320" 
- data-ad-height  = "100"></ins> 
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+			<ins
+				class="kakao_ad_area"
+				style="display: none;"
+				data-ad-unit="DAN-OWPNpgRkjHj7BzKk"
+				data-ad-width="320"
+				data-ad-height="100"
+			></ins>
+			<script
+				type="text/javascript"
+				src="//t1.daumcdn.net/kas/static/ba.min.js"
+				async
+			></script>
 		</div>
 		<div id="disqus_thread"></div>
 		<script>
@@ -151,6 +177,39 @@
 			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
 			crossorigin="anonymous"
 		></script>
+		<script type="text/javascript">
+			//<![CDATA[
+			// // 사용할 앱의 JavaScript 키를 설정해 주세요.
+			Kakao.init('8c6e7db69f3c900ac3bd5191e58dd69a');
+			// // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+			Kakao.Link.createDefaultButton({
+				container: '#kakao-link-btn',
+				objectType: 'feed',
+				content: {
+					title: $('meta[property="og:title"]').attr('content'),
+					description: $('meta[property="og:description"]').attr('content'),
+					imageUrl: $('meta[property="og:image"]').attr('content'),
+					link: {
+						mobileWebUrl: window.location.href,
+						webUrl: window.location.href,
+					},
+				},
+				social: {
+					likeCount: 286,
+					commentCount: 45,
+					sharedCount: 845,
+				},
+				buttons: [
+					{
+						title: '웹으로 보기',
+						link: {
+							webUrl: window.location.href,
+						},
+					},
+				],
+			});
+			//]]>
+		</script>
 		<!-- Option 2: Separate Popper and Bootstrap JS -->
 		<!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
@@ -208,9 +267,9 @@
 				maxPredictions = model.getTotalClasses();
 				labelContainer = document.getElementById('label-container');
 				for (let i = 0; i < maxPredictions; i++) {
-					var element = document.createElement("div")
-                element.classList.add("d-flex");
-			labelContainer.appendChild(element);
+					var element = document.createElement('div');
+					element.classList.add('d-flex');
+					labelContainer.appendChild(element);
 				}
 			}
 			// run the webcam image through the image model
@@ -229,7 +288,8 @@
 						break;
 					case 'angry':
 						resultTilte = 'angry dog';
-						resultExplain = '왠지 무서운 인상파군요. 같이 있으면 불량한 사람들이 접근을 꺼리니 든든하겠어요. 다만 친밀한 사람도 무서워해서 가까이 안 오면 곤란하겠죠.^^';
+						resultExplain =
+							'왠지 무서운 인상파군요. 같이 있으면 불량한 사람들이 접근을 꺼리니 든든하겠어요. 다만 친밀한 사람도 무서워해서 가까이 안 오면 곤란하겠죠.^^';
 						break;
 					case 'sad':
 						resultTilte = 'sad dog';
@@ -287,8 +347,20 @@
 						default:
 							labelTitle = '알수없음';
 					}
-					var label = "<div class='animal-label d-flex align-items-center'>" + labelTitle + '</div>';
-					var bar = "<div class='bar-container position-relative container'><div class='" + prediction[i].className + "-box'></div><div class='d-flex justify-content-center align-items-center " + prediction[i].className + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + '%</span></div></div>';
+					var label =
+						"<div class='animal-label d-flex align-items-center'>" +
+						labelTitle +
+						'</div>';
+					var bar =
+						"<div class='bar-container position-relative container'><div class='" +
+						prediction[i].className +
+						"-box'></div><div class='d-flex justify-content-center align-items-center " +
+						prediction[i].className +
+						"-bar' style='width: " +
+						barWidth +
+						"'><span class='d-block percent-text'>" +
+						Math.round(prediction[i].probability.toFixed(2) * 100) +
+						'%</span></div></div>';
 					labelContainer.childNodes[i].innerHTML = label + bar;
 				}
 			}
