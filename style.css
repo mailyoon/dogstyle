@@ -134,11 +134,10 @@ body {
 	font-size: calc(1.3rem + 0.6vw);
 }
 .kakao-link-btn {
-	width: 2.6rem;
-	margin-right: 15.5rem;
+    width: 42px;
+    margin-right: 20rem;
 }
 .addthis_inline_share_toolbox {
-	margin-left: 5rem;
 }
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {

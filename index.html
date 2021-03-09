@@ -28,10 +28,11 @@
 		/>
 		<meta name="author" content="김다스" />
 		<meta name="robots" content="index,follow" />
+		<!-- Facebook Meta Tags / 페이스북 오픈 그래프 -->
 		<meta property="og:url" content="http://www.https://dogstyle.tk" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="My Dog Style" />
-		<meta property="og:description" content="당신의 개는 어떤 스타일인가요?" />
+		<meta property="og:description" content="당신의 개는 어떤 스타일인가요? 인공지능이 강아지 얼굴을 분석해줍니다." />
 		<meta property="og:image" content="img/ogcontent.jpg" />
 		<link rel="canonical" href="http://www.https://dogstyle.tk.html" />
 		<link rel="stylesheet" href="style.css" />
@@ -44,6 +45,21 @@
 		></script>
 		<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 		<meta name="naver-site-verification" content="91127eb1a7540e684279d20560f316ee6751795f" />
+		<!-- Twitter Meta Tags / 트위터 -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="website" />
+		<meta name="twitter:description" content="당신의 개는 어떤 스타일인가요? 인공지능이 강아지 얼굴을 분석해줍니다." />
+		<meta
+			name="twitter:image"
+			content="img/ogcontent.jpg"
+		/>
+		<!-- Google / Search Engine Tags / 구글 검색 엔진 -->
+		<meta itemprop="name" content="website" />
+		<meta itemprop="description" content="당신의 개는 어떤 스타일인가요? 인공지능이 강아지 얼굴을 분석해줍니다." />
+		<meta
+			itemprop="image"
+			content="img/ogcontent.jpg"
+		/>
 	</head>
 
 	<body>
@@ -67,7 +83,7 @@
 							<a class="nav-link active" aria-current="page" href="#">My Dog Style</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">My Fashion Style</a>
+							<a class="nav-link" href="#">My Fashion Style (준비중)</a>
 						</li>
 					</ul>
 				</div>
@@ -107,9 +123,11 @@
 				<!-- Go to www.addthis.com/dashboard to customize your tools -->
 				<div class="mt-5 addthis_inline_share_toolbox">
 					<a id="kakao-link-btn" href="javascript:;">
-					<img class="kakao-link-btn" src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
-					/>
-				</a>
+						<img
+							class="kakao-link-btn"
+							src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
+						/>
+					</a>
 				</div>
 				<div class="image-title-wrap">
 					<button
@@ -190,15 +208,15 @@
 					description: $('meta[property="og:description"]').attr('content'),
 					imageUrl: $('meta[property="og:image"]').attr('content'),
 					link: {
-						mobileWebUrl: "https:www.//dogstyle.tk",
-						webUrl: "https:www.//dogstyle.tk",
+						mobileWebUrl: 'https:www.//dogstyle.tk',
+						webUrl: 'https:www.//dogstyle.tk',
 					},
 				},
 				buttons: [
 					{
 						title: '웹으로 보기',
 						link: {
-							webUrl: window.location.href,
+							webUrl: 'https:www.//dogstyle.tk',
 						},
 					},
 				],
