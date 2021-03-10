@@ -133,11 +133,12 @@ body {
 	margin-top: 1rem;
 	font-size: calc(1.3rem + 0.6vw);
 }
-#kakao-link-btn {
-    margin-right: 20rem;
+.share {
+	text-align: center;
 }
 .kakao-link-btn {
 	width: 42px;
+    margin-bottom: 4.5rem;
 }
 .addthis_inline_share_toolbox {
 }
