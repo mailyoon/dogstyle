@@ -91,7 +91,7 @@
 			</div>
 		</nav>
 		<section class="section">
-			<h1 class="title">My Dog Style (AI TEST)</h1>
+			<h1 class="title">My Dog Style (AI Test)</h1>
 			<h2 class="subtitle">당신의 개는 어떤 스타일인가요?</h2>
 		</section>
 		<script
@@ -284,6 +284,7 @@
 				prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
 				console.log(prediction[0].className);
 				var resultTilte, resultExplain;
+				
 				switch (prediction[0].className) {
 					case 'funny':
 						resultTilte = 'funny dog';
